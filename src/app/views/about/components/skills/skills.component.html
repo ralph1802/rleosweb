@@ -1,0 +1,38 @@
+<div class="container">
+
+  <span>{{ 'skills' | translate:translateService.GetLang }}</span>
+
+  <div class="labels">
+
+    <app-labels
+      [imageSrc]="'icons/angular.svg'"
+      [label]="'Angular'">
+    </app-labels>
+
+    <app-labels
+      [imageSrc]="'icons/html.svg'"
+      [label]="'HTML'">
+    </app-labels>
+
+    <app-labels
+      [imageSrc]="'icons/css.svg'"
+      [label]="'CSS'">
+    </app-labels>
+
+    <app-labels
+      [imageSrc]="'icons/sass.svg'"
+      [label]="'SCSS'">
+    </app-labels>
+
+    <app-labels
+      [imageSrc]="'icons/js.svg'"
+      [label]="'JavaScript'">
+    </app-labels>
+
+    <app-labels
+      [imageSrc]="'icons/ts.svg'"
+      [label]="'TypeScript'">
+    </app-labels>
+
+  </div>
+</div>

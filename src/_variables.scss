@@ -1,0 +1,34 @@
+//Colores
+$color-primary: #0C0C0D;
+$color-secondary: #92A7FF;
+$color-white: #fff;
+$color-dark-gray: #211F23;
+$color-light-gray: #6F6F6F;
+$font-color-span: #fff;
+$font-color-text: #6F6F6F;
+$font-color-hover: darken($font-color-span, 30%);
+$color-dark-gray-hover: darken($color-dark-gray, 30%);
+$font-color-active: #92A7FF;
+
+// Tamaños y márgenes
+$width-default: 65%;
+$gap-default: 60px;
+$gap-components: 40px;
+$margin-bottom: 40px;
+$border-radius: 100px;
+
+// Fuentes
+$font-family: 'Raleway', Arial, Helvetica, sans-serif;
+$font-size-tite: 75px;
+$font-size-subtite: 60px;
+$font-size-text: 24px;
+$font-size-links: 16px;
+$font-weight-regular: 400;
+$font-weight-bold: 700;
+
+// Botones
+$button-width: 184px;
+$button-padding: 12px 40px;
+$button-border-radius: 100px;
+$button-font-size: 16px;
+$button-font-weight: $font-weight-bold;

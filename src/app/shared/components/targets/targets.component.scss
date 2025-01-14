@@ -1,0 +1,25 @@
+@import '../../../../variables';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 30px 100px;
+  border: solid 1px $color-white;
+  border-radius: 70px;
+  &:hover {
+    background: darken($color-white, 90%);
+  }
+}
+
+span {
+  font-size: $font-size-text;
+  font-weight: $font-weight-bold;
+  color: $color-white;
+}
+
+p {
+  font-size: 20px;
+  color: $color-secondary;
+  font-weight: $font-weight-regular;
+}

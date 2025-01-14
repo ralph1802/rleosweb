@@ -1,0 +1,35 @@
+@import '../../../../../variables';
+
+main {
+  display: flex;
+  padding-bottom: 40px;
+  border-bottom: solid 1px $color-light-gray;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: $gap-components;
+}
+
+.presentation-title {
+  font-size: $font-size-tite;
+  font-weight: $font-weight-bold;
+  color: $color-white;
+}
+
+p {
+  font-size: $font-size-text;
+}
+
+.about.description span {
+  font-size: $font-size-text;
+  font-weight: $font-weight-bold;
+  color: $font-color-span;
+}
+
+.presentation-buttons {
+  display: flex;
+  gap: $gap-components;
+}

@@ -1,0 +1,17 @@
+@import '../../../../variables';
+
+a {
+  font-family: $font-family;
+  font-size: $font-size-links;
+  font-weight: $font-weight-regular;
+  color: $font-color-span;
+  text-decoration: none;
+
+  &:hover {
+    color: $font-color-hover;
+  }
+
+  &.active {
+    color: $font-color-active;
+  }
+}

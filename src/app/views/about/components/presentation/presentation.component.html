@@ -1,0 +1,20 @@
+<main>
+  <div class="container">
+    <h1 class="presentation-title">{{ 'about.title' | translate: translateService.GetLang }}</h1>
+    <p [innerHTML]="'about.description' | translate: translateService.GetLang"></p>
+    <div class="presentation-buttons">
+      <app-primary-button
+        [type]="'primary'"
+        [label]="'about.buttons.primary' | translate: translateService.GetLang"
+        (action)="onDownloadCv()">
+      </app-primary-button>
+      <app-secundary-button
+        [type]="'secondary'"
+        [label]="'about.buttons.secondary' | translate: translateService.GetLang"
+        (action)="onDownloadCv()"></app-secundary-button>
+    </div>
+  </div>
+  <div class="image">
+    <img src="images/programer.svg">
+  </div>
+</main>

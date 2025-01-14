@@ -1,0 +1,42 @@
+<nav>
+  <div class="container">
+
+    <div class="routes">
+      <app-anchor-link
+        [text]="'navbar.about' | translate: translateService.GetLang"
+        [href]="'/about'">
+      </app-anchor-link>
+      <app-anchor-link
+        [text]="'navbar.experience' | translate: translateService.GetLang"
+        [href]="'/experience'">
+      </app-anchor-link>
+      <app-anchor-link
+        [text]="'navbar.repositories' | translate: translateService.GetLang"
+        [href]="'/repositories'">
+      </app-anchor-link>
+    </div>
+
+    <div class="links">
+      <app-image-link
+        [src]="'icons/github.svg'"
+        [href]="'https://github.com/ralph1802'"
+        [target]="'_blank'">
+      </app-image-link>
+
+      <app-image-link
+        [src]="'icons/linkedin.svg'"
+        [href]="'https://www.linkedin.com/in/axel-leos-624bb8267/'"
+        [target]="'_blank'">
+      </app-image-link>
+
+      <app-image-link
+        [src]="'icons/mail.svg'"
+        [href]="'mailto:rleos1802@outlook.com'"
+        [target]="'_blank'">
+      </app-image-link>
+    </div>
+  </div>
+  <div class="language">
+    <app-language-toggle-navbar></app-language-toggle-navbar>
+  </div>
+</nav>

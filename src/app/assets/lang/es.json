@@ -1,0 +1,33 @@
+{
+  "language-toggle-navbar": {
+    "spanish": "Español",
+    "english": "Inglés"
+  },
+  "navbar": {
+    "about": "acerca de",
+    "experience": "experiencia",
+    "repositories": "repositorios"
+  },
+  "footer": {
+    "contact": "Contáctame"
+  },
+  "about": {
+    "title": "Hola, soy Axel",
+    "description": "Ingeniero en Sistemas y Desarrollador Front-End autodidacta con <span>un año de experiencia</span>, apasionado por aprender, crear interfaces modernas y contribuir a proyectos impactantes.",
+    "buttons": {
+      "primary": "Descargar CV",
+      "secondary": "Enviar md"
+    }
+  },
+  "skills": "Habilidades",
+  "tools": "Herramientas",
+  "studies": "Estudios",
+  "frontEndDeveloper": "Desarrollador Front End",
+  "autodidact": "Autodidacta",
+  "present": "Presente",
+  "engineeringDegree": "Ingeniería en Sistemas Computacionales",
+  "university": "Universidad Insuco Apodaca N.L",
+  "2022-present": "2022 - Presente",
+  "englishB2": "Inglés B2",
+  "privateTeacher": "Profesor Particular"
+}

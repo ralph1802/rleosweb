@@ -1,0 +1,28 @@
+@import '../../../variables';
+nav{
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  margin: 0 auto;
+  background: $color-dark-gray;
+  padding: 12px 38px;
+  border-radius: $border-radius;
+  width: fit-content;
+  display: flex;
+  gap: 42px;
+  justify-content: center;
+  align-items: center;
+}
+
+.routes {
+  display: flex;
+  gap: 42px;
+}
+
+.links {
+  display: flex;
+  gap: 12px;
+}
+

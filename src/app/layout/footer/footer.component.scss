@@ -1,0 +1,21 @@
+@import '../../../variables';
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 38px;
+  background: $color-dark-gray;
+  border-radius: $border-radius;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.dev-by {
+  padding: 12px 38px;
+  text-align: center;
+}

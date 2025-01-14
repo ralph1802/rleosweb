@@ -1,0 +1,13 @@
+@import '../../../variables';
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: $gap-default
+}
+
+.skills-tools {
+  display: flex;
+  flex-direction: column;
+  gap: $gap-default
+}

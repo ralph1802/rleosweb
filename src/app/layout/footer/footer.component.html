@@ -1,0 +1,27 @@
+<footer>
+  <div class="container">
+    <span>{{ 'footer.contact' | translate: translateService.GetLang }}</span>
+    <div class="links">
+      <app-image-link
+        [src]="'icons/wpp.svg'"
+        [href]="'https://wa.link/kwbkbg'"
+        [target]="'_blank'">
+      </app-image-link>
+
+      <app-image-link
+        [src]="'icons/linkedin.svg'"
+        [href]="'https://www.linkedin.com/in/axel-leos-624bb8267/'"
+        [target]="'_blank'">
+      </app-image-link>
+
+      <app-image-link
+        [src]="'icons/mail.svg'"
+        [href]="'mailto:rleos1802@outlook.com'"
+        [target]="'_blank'">
+      </app-image-link>
+    </div>
+  </div>
+  <div class="dev-by">
+    <span>wizardscodes © 2024</span>
+  </div>
+</footer>

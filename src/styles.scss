@@ -1,0 +1,21 @@
+@import './variables';
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: $font-family;
+  color: $font-color-text;
+  user-select: none;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: $color-primary;
+}

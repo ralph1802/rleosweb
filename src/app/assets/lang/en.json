@@ -1,0 +1,33 @@
+{
+  "language-toggle-navbar": {
+    "spanish": "Spanish",
+    "english": "English"
+  },
+  "navbar": {
+    "about": "about",
+    "experience": "experience",
+    "repositories": "repositories"
+  },
+  "footer": {
+    "contact": "Contact me"
+  },
+  "about": {
+    "title": "Hi, I'm Axel",
+    "description": "Systems Engineer and self-taught Front-End Software Engineer with <span>one year of experience</span>, passionate about learning, creating modern interfaces, and contributing to impactful projects.",
+    "buttons": {
+      "primary": "Download CV",
+      "secondary": "Send md"
+    }
+  },
+  "skills": "Skills",
+  "tools": "Tools",
+  "studies": "Studies",
+  "frontEndDeveloper": "Front End Developer",
+  "autodidact": "Self-taught",
+  "present": "Present",
+  "engineeringDegree": "Systems Engineering",
+  "university": "Insuco Apodaca University N.L",
+  "2022-present": "2022 - Present",
+  "englishB2": "English B2",
+  "privateTeacher": "Private Tutor"
+}

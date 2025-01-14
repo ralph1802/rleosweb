@@ -1,0 +1,22 @@
+<div class="container">
+  <span>{{ 'studies' | translate:translateService.GetLang }}</span>
+  <div class="targets">
+    <app-targets
+      [spanText]="'frontEndDeveloper' | translate:translateService.GetLang"
+      [paragraphText]="'autodidact' | translate:translateService.GetLang"
+      [labelText]="'present' | translate:translateService.GetLang">
+    </app-targets>
+
+    <app-targets
+      [spanText]="'engineeringDegree' | translate:translateService.GetLang"
+      [paragraphText]="'university' | translate:translateService.GetLang"
+      [labelText]="'2022-present' | translate:translateService.GetLang">
+    </app-targets>
+
+    <app-targets
+      [spanText]="'englishB2' | translate:translateService.GetLang"
+      [paragraphText]="'privateTeacher' | translate:translateService.GetLang"
+      [labelText]="'present' | translate:translateService.GetLang">
+    </app-targets>
+  </div>
+</div>

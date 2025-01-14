@@ -1,0 +1,23 @@
+@import '../../../../variables';
+
+button {
+  cursor: pointer;
+  background: none;
+  border: solid 1px $color-white;
+  width: $button-width;
+  padding: $button-padding;
+  border-radius: $button-border-radius;
+  font-size: $button-font-size;
+  font-weight: $button-font-weight;
+  color: $color-white;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: darken($color-primary, 20%);
+  }
+
+  &:active {
+    background-color: darken($color-primary, 40%);
+    transform: scale(0.95);
+  }
+}

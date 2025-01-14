@@ -1,0 +1,14 @@
+<div class="language-toggle">
+  <button (click)="toggleDropdown()" class="dropdown-btn">
+    <img src="icons/translate.svg">
+    {{ 'language-toggle-navbar.' + (selectedLanguage.toLowerCase() === 'en' ? 'english' : 'spanish') | translate: translateService.GetLang }}
+    <span class="arrow">
+      <img [src]="isOpen ? 'icons/uparrow.svg' : 'icons/downarrow.svg'" />
+    </span>
+  </button>
+
+  <div *ngIf="isOpen" class="dropdown-panel">
+    <button (click)="selectLanguage('En')" class="dropdown-item">{{ 'language-toggle-navbar.english' | translate: translateService.GetLang }}</button>
+    <button (click)="selectLanguage('Es')" class="dropdown-item">{{ 'language-toggle-navbar.spanish' | translate: translateService.GetLang }}</button>
+  </div>
+</div>

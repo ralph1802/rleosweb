@@ -1,0 +1,19 @@
+@import '../../../../../variables';
+
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: $gap-default;
+}
+
+span {
+  font-size: $font-size-subtite;
+  font-weight: $font-weight-regular;
+  color: $color-white;
+}
+
+.labels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $gap-components;
+}
