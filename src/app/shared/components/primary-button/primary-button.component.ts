@@ -6,7 +6,7 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './primary-button.component.html',
-  styleUrl: './primary-button.component.scss'
+  styleUrls: ['./primary-button.component.scss']
 })
 export class PrimaryButtonComponent {
   @Input() type!: string;
@@ -14,6 +14,9 @@ export class PrimaryButtonComponent {
   @Output() action = new EventEmitter<void>();
 
   onClick() {
-    this.action.emit();
+    const link = document.createElement('a');
+    link.href = 'assets/CV - Ricardo Axel Leos Flores - DEV - ES-EN.pdf';
+    link.download = 'CV - Ricardo Axel Leos Flores - DEV - ES-EN.pdf';
+    link.click();
   }
 }

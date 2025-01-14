@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 import { AnchorLinkComponent } from "../../shared/components/anchor-link/anchor-link.component";
 import { ImageLinkComponent } from "../../shared/components/image-link/image-link.component";
 import { LanguageToggleNavbarComponent } from "../../shared/components/language-toggle-navbar/language-toggle-navbar.component";
@@ -18,5 +18,20 @@ import { TranslateService } from '../../core/services/translate.service';
   styleUrls: ['./nav-bar.component.scss']
 })
 export class NavBarComponent {
+  lastScrollTop: number = 0;
+  isHidden: boolean = false;
+
   constructor(public translateService: TranslateService) {}
+
+  @HostListener('window:scroll', ['$event'])
+  onWindowScroll(event: Event): void {
+    const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (currentScroll > this.lastScrollTop && !this.isHidden) {
+      this.isHidden = true;
+    } else if (currentScroll < this.lastScrollTop && this.isHidden) {
+      this.isHidden = false;
+    }
+    this.lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+  }
 }

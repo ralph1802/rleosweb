@@ -1,0 +1,40 @@
+@import '../../../../../variables';
+
+.container {
+  display: flex;
+  gap: $gap-components;
+  border: solid 1px $color-white;
+  padding: 30px 60px;
+  border-radius: $border-radius;
+  transition: transform 0.6s ease, background 0.3s ease;
+
+  &:hover {
+    background: darken($color-primary, 100%);
+    transform: scale(1.02);
+  }
+}
+
+.title,
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+span {
+  font-size: $font-size-h4;
+  font-weight: $font-weight-bold;
+  color: $color-white;
+}
+
+.title p {
+  color: $color-secondary;
+  font-weight: $font-weight-bold;
+}
+
+.description span {
+  color: $color-secondary;
+  font-weight: $font-weight-bold;
+}
+
+

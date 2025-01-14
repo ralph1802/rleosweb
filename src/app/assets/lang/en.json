@@ -29,5 +29,51 @@
   "university": "Insuco Apodaca University N.L",
   "2022-present": "2022 - Present",
   "englishB2": "English B2",
-  "privateTeacher": "Private Tutor"
+  "privateTeacher": "Private Tutor",
+  "experience": {
+    "intro": "Here you can see a little more about my experience and work as a Front-End Developer.",
+    "frontEndJunior": {
+      "vivipost": {
+        "title": "Front-End Developer Jr",
+        "company": "Vivipost",
+        "period": "2023 - Present",
+        "activities": {
+          "title": "My Activities",
+          "text": "Development and optimization of front-end components for internal tools."
+        }
+      },
+      "ralphSites": {
+        "title": "Front-End Developer Jr",
+        "company": "ralph.sites",
+        "period": "2024 - Present",
+        "activities": {
+          "title": "My Activities",
+          "text": "Focused on creating websites for small businesses, including design and development."
+        }
+      },
+      "wizardsCodes": {
+        "title": "Front-End Developer Jr",
+        "company": "WizardsCodes",
+        "period": "2025 - Present",
+        "activities": {
+          "title": "My Activities",
+          "text": "Developing dashboards and digitalizing processes for enterprise clients."
+        }
+      }
+    }
+  },
+  "repositories": {
+    "sitestock": {
+      "title": "SiteStock",
+      "description": "A repository that provides the complete code for an advanced inventory management system, designed to streamline stock organization and control."
+    },
+    "angulartemplateweb": {
+      "title": "AngularTemplateWeb",
+      "description": "An optimized template for quickly building basic websites. It features predefined routes and a functional, responsive layout with components like a navbar, sidebar, footer, and toggles for dark mode and translation."
+    },
+    "cardsite": {
+      "title": "CardSite",
+      "description": "A specialized project for creating personalized digital invitations, featuring pre-configured secure routes and a focus on making events unique and memorable."
+    }
+  }
 }

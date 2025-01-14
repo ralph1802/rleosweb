@@ -6,14 +6,15 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './secundary-button.component.html',
-  styleUrl: './secundary-button.component.scss'
+  styleUrls: ['./secundary-button.component.scss']
 })
 export class SecundaryButtonComponent {
-    @Input() type!: string;
-    @Input() label!: string;
-    @Output() action = new EventEmitter<void>();
+  @Input() type!: string;
+  @Input() label!: string;
+  @Output() action = new EventEmitter<void>();
 
-    onClick() {
-      this.action.emit();
+  onClick() {
+    const whatsappUrl = 'https://wa.link/kwbkbg';
+    window.open(whatsappUrl, '_blank');
   }
 }

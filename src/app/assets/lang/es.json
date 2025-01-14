@@ -29,5 +29,51 @@
   "university": "Universidad Insuco Apodaca N.L",
   "2022-present": "2022 - Presente",
   "englishB2": "Inglés B2",
-  "privateTeacher": "Profesor Particular"
+  "privateTeacher": "Profesor Particular",
+  "experience": {
+    "intro": "Aquí puedes ver un poco más sobre mi experiencia y trabajos como Desarrollador Front-End.",
+    "frontEndJunior": {
+      "vivipost": {
+        "title": "Desarrollador Front-End Jr",
+        "company": "Vivipost",
+        "period": "2023 - Presente",
+        "activities": {
+          "title": "Mis Actividades",
+          "text": "Desarrollo y optimización de componentes front-end para herramientas internas."
+        }
+      },
+      "ralphSites": {
+        "title": "Desarrollador Front-End Jr",
+        "company": "ralph.sites",
+        "period": "2024 - Presente",
+        "activities": {
+          "title": "Mis Actividades",
+          "text": "Enfocado en la creación de páginas web para pequeños negocios, incluyendo diseño y desarrollo."
+        }
+      },
+      "wizardsCodes": {
+        "title": "Desarrollador Front-End Jr",
+        "company": "WizardsCodes",
+        "period": "2025 - Presente",
+        "activities": {
+          "title": "Mis Actividades",
+          "text": "Desarrollo de dashboards y digitalización de procesos para clientes empresariales."
+        }
+      }
+    }
+  },
+  "repositories": {
+    "sitestock": {
+      "title": "SiteStock",
+      "description": "Repositorio que incluye el código completo para un avanzado sistema de gestión de inventarios, diseñado para facilitar la organización y el control de existencias."
+    },
+    "angulartemplateweb": {
+      "title": "AngularTemplateWeb",
+      "description": "Plantilla optimizada para desarrollar sitios web básicos de manera rápida. Incluye rutas predefinidas y un diseño funcional y responsive con componentes como barra de navegación, menú lateral, pie de página, y toggles para modo oscuro y traducción."
+    },
+    "cardsite": {
+      "title": "CardSite",
+      "description": "Proyecto especializado en la creación de invitaciones digitales personalizadas, con rutas seguras preconfiguradas y un enfoque en eventos únicos y memorables."
+    }
+  }
 }

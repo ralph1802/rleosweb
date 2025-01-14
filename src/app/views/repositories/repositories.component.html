@@ -1,1 +1,22 @@
-<p>repositories works!</p>
+<div class="container">
+  <app-clickable-div
+    [url]="'https://www.sitestock.com'"
+    [imageSrc]="'images/sitestock.svg'"
+    [title]="'repositories.sitestock.title' | translate: translateService.GetLang"
+    [description]="'repositories.sitestock.description' | translate: translateService.GetLang">
+  </app-clickable-div>
+
+  <app-clickable-div
+    [url]="'https://www.angulartemplateweb.com'"
+    [imageSrc]="'images/ralphsites.svg'"
+    [title]="'repositories.angulartemplateweb.title' | translate: translateService.GetLang"
+    [description]="'repositories.angulartemplateweb.description' | translate: translateService.GetLang">
+  </app-clickable-div>
+
+  <app-clickable-div
+    [url]="'https://www.cardsite.com'"
+    [imageSrc]="'images/cardsite.svg'"
+    [title]="'repositories.cardsite.title' | translate: translateService.GetLang"
+    [description]="'repositories.cardsite.description' | translate: translateService.GetLang">
+  </app-clickable-div>
+</div>
