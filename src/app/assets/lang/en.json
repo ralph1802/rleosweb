@@ -63,6 +63,7 @@
     }
   },
   "repositories": {
+    "intro": "Here are some of my most recent repositories",
     "sitestock": {
       "title": "SiteStock",
       "description": "A repository that provides the complete code for an advanced inventory management system, designed to streamline stock organization and control."

@@ -4,4 +4,12 @@
   display: flex;
   gap: $gap-components;
   flex-wrap: wrap;
+  box-sizing: border-box;
 }
+
+@media (max-width: 450px) {
+  .container {
+    text-align: center;
+  }
+}
+

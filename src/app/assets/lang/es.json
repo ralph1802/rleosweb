@@ -63,6 +63,7 @@
     }
   },
   "repositories": {
+    "intro": "Estos son algunos de mis repositorios más recientes",
     "sitestock": {
       "title": "SiteStock",
       "description": "Repositorio que incluye el código completo para un avanzado sistema de gestión de inventarios, diseñado para facilitar la organización y el control de existencias."

@@ -47,6 +47,7 @@ p {
   .presentation-buttons {
     margin: auto;
     display: flex;
+    flex-direction: column;
     gap: $gap-components-450;
   }
 

@@ -41,7 +41,7 @@ $button-font-size: 16px;
 $button-font-weight: $font-weight-bold;
 
 //----------------------------
-// MOVIL 450px
+// @media (max-width: 450px)
 //----------------------------
 // Tamaños y márgenes móvil
 $width-450: 80%;
@@ -64,4 +64,4 @@ $button-width-450: 155px;
 $button-padding-450: 10px 30px;
 $button-font-size-450: 14px;
 
-// @media (max-width: 450px)
+
