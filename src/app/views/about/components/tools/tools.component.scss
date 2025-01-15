@@ -17,3 +17,20 @@ span {
   flex-wrap: wrap;
   gap: $gap-components;
 }
+
+
+@media (max-width: 450px) {
+  .container{
+    gap: $gap-default-450;
+    align-items: center;
+  }
+
+  span {
+    font-size: $font-size-subtite-450;
+  }
+
+  .labels {
+    gap: 25px;
+    justify-content: center;
+  }
+}

@@ -22,16 +22,4 @@ export class NavBarComponent {
   isHidden: boolean = false;
 
   constructor(public translateService: TranslateService) {}
-
-  @HostListener('window:scroll', ['$event'])
-  onWindowScroll(event: Event): void {
-    const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
-
-    if (currentScroll > this.lastScrollTop && !this.isHidden) {
-      this.isHidden = true;
-    } else if (currentScroll < this.lastScrollTop && this.isHidden) {
-      this.isHidden = false;
-    }
-    this.lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
-  }
 }

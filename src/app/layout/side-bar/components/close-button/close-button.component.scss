@@ -1,0 +1,21 @@
+@import '../../../../../variables';
+
+.close-button {
+  background: none;
+  border: solid 1px $color-white;
+  font-size: 20px;
+  font-weight: $font-weight-bold;
+  padding: 5px 15px;
+  cursor: pointer;
+  color: $color-white;
+  transition: color 0.3s ease;
+  border-radius: 10px;
+
+  &:hover {
+    color: darken($color-primary, 20%);
+  }
+
+  &:active {
+    color: darken($color-primary, 30%);
+  }
+}

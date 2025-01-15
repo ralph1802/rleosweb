@@ -3,11 +3,23 @@
 main {
   display: flex;
   flex-direction: column;
-  gap: $gap-default
+  gap: $gap-default;
+  box-sizing: border-box;
+}
+
+.presentation {
+  box-sizing: border-box;
 }
 
 .skills-tools {
   display: flex;
   flex-direction: column;
   gap: $gap-default
+}
+
+@media (max-width: 450px) {
+  main,
+  .skills-tools{
+    gap: $gap-default-450;
+  }
 }

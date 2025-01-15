@@ -38,3 +38,16 @@ span {
 }
 
 
+@media (max-width: 450px) {
+  .container {
+    gap: $gap-components-450;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 60px;
+  }
+
+  span {
+    font-size: $font-size-h4-450;
+  }
+}

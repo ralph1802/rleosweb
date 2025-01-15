@@ -19,3 +19,19 @@ span {
   gap: $gap-components;
 
 }
+
+
+@media (max-width: 450px) {
+  .container {
+    gap: $gap-default-450;
+    align-items: center;
+  }
+
+  span {
+    font-size: $font-size-subtite-450;
+  }
+
+  .targets {
+    gap: $gap-components-450;
+  }
+}

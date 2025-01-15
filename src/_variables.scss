@@ -1,4 +1,6 @@
-//Colores
+//----------------------------
+// COLORS
+//----------------------------
 $color-primary: #0C0C0D;
 $color-secondary: #92A7FF;
 $color-white: #fff;
@@ -10,14 +12,17 @@ $font-color-hover: darken($font-color-span, 30%);
 $color-dark-gray-hover: darken($color-dark-gray, 30%);
 $font-color-active: #92A7FF;
 
-// Tamaños y márgenes
+//----------------------------
+// DESKTOP
+//----------------------------
+// Tamaños y márgenes desktop
 $width-default: 65%;
 $gap-default: 60px;
 $gap-components: 40px;
 $margin-bottom: 40px;
 $border-radius: 100px;
 
-// Fuentes
+// Fuentes desktop
 $font-family: 'Raleway', Arial, Helvetica, sans-serif;
 $font-size-tite: 75px;
 $font-size-subtite: 60px;
@@ -28,9 +33,35 @@ $font-size-p: 16px;
 $font-weight-regular: 400;
 $font-weight-bold: 700;
 
-// Botones
+// Botones desktop
 $button-width: 184px;
 $button-padding: 12px 40px;
 $button-border-radius: 100px;
 $button-font-size: 16px;
 $button-font-weight: $font-weight-bold;
+
+//----------------------------
+// MOVIL 450px
+//----------------------------
+// Tamaños y márgenes móvil
+$width-450: 80%;
+$gap-default-450: 40px;
+$gap-components-450: 30px;
+$margin-bottom-450: 30px;
+$border-radius-450: 100px;
+
+// Fuentes móvil
+$font-family: 'Raleway', Arial, Helvetica, sans-serif;
+$font-size-tite-450: 50px;
+$font-size-subtite-450: 40px;
+$font-size-text-450: 18px;
+$font-size-links-450: 14px;
+$font-size-h4-450: 16px;
+$font-size-p-450: 14px;
+
+// Botones móvil
+$button-width-450: 155px;
+$button-padding-450: 10px 30px;
+$button-font-size-450: 14px;
+
+// @media (max-width: 450px)

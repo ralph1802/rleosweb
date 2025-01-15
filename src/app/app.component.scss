@@ -8,4 +8,26 @@
   display: flex;
   flex-direction: column;
   gap: $gap-default;
+  box-sizing: border-box;
+}
+
+app-side-bar {
+  display: none;
+}
+
+
+@media (max-width: 450px) {
+  .container {
+
+    width: $width-450;
+  }
+
+  app-nav-bar {
+    display: none;
+  }
+
+  app-side-bar {
+    display: block;
+  }
+
 }

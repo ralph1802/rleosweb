@@ -6,3 +6,11 @@
   flex-direction: column;
   gap: $gap-default;
 }
+
+
+@media (max-width: 450px) {
+  .container {
+    text-align: center;
+    gap: $gap-default-450;
+  }
+}

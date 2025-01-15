@@ -14,4 +14,23 @@ a {
   &.active {
     color: $font-color-active;
   }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+
+@media (max-width: 450px) {
+  .container {
+    background: $color-primary;
+    border: solid 1px $color-white;
+    padding: 10px 15px;
+    border-radius: 10px;
+  }
+
+  a {
+    display: block;
+    width: 100%;
+    }
 }

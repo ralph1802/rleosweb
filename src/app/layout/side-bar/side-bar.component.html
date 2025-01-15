@@ -1,0 +1,22 @@
+<app-open-button
+  *ngIf="!isSidebarOpen"
+  (toggle)="toggleSidebar()">
+</app-open-button>
+
+<div class="side-bar" [class.open]="isSidebarOpen">
+  <app-close-button (toggle)="toggleSidebar()"></app-close-button>
+  <div class="routes">
+    <app-anchor-link
+      [text]="'navbar.about' | translate: translateService.GetLang"
+      [href]="'/about'">
+    </app-anchor-link>
+    <app-anchor-link
+      [text]="'navbar.experience' | translate: translateService.GetLang"
+      [href]="'/experience'">
+    </app-anchor-link>
+    <app-anchor-link
+      [text]="'navbar.repositories' | translate: translateService.GetLang"
+      [href]="'/repositories'">
+    </app-anchor-link>
+    <app-language-toggle-navbar></app-language-toggle-navbar>
+</div>

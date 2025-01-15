@@ -26,3 +26,20 @@ p {
   color: $color-secondary;
   font-weight: $font-weight-regular;
 }
+
+@media (max-width: 450px) {
+  .container {
+    gap: 16px;
+    padding: 20px 30px;
+    border: solid 1px $color-white;
+    border-radius: 50px;
+  }
+
+  span {
+    font-size: $font-size-text-450;
+  }
+
+  p {
+    font-size: $font-size-p-450;
+  }
+}

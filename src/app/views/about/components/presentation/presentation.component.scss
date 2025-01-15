@@ -23,13 +23,34 @@ p {
   font-size: $font-size-text;
 }
 
-.about.description span {
-  font-size: $font-size-text;
-  font-weight: $font-weight-bold;
-  color: $font-color-span;
-}
-
 .presentation-buttons {
   display: flex;
   gap: $gap-components;
+}
+
+
+@media (max-width: 450px) {
+
+  .container {
+    text-align: center;
+    gap: $gap-components-450;
+  }
+
+  .presentation-title {
+    font-size: $font-size-tite-450;
+  }
+
+  p {
+    font-size: $font-size-text-450;
+  }
+
+  .presentation-buttons {
+    margin: auto;
+    display: flex;
+    gap: $gap-components-450;
+  }
+
+  .image {
+    display: none;
+  }
 }

@@ -22,3 +22,12 @@ button {
     transform: scale(0.95);
   }
 }
+
+
+@media (max-width: 450px) {
+  button {
+    width: $button-width-450;
+    padding: $button-padding-450;
+    font-size: $button-font-size-450;
+  }
+}

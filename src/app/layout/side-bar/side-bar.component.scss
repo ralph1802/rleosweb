@@ -1,0 +1,31 @@
+@import '../../../variables';
+
+.side-bar {
+  position: fixed;
+  top: 0;
+  right: -400px;
+  height: 100%;
+  width: 200px;
+  background-color: $color-primary;
+  transition: right 0.3s ease;
+  z-index: 1000;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: $gap-default;
+}
+
+.side-bar.open {
+  right: 0;
+}
+
+app-close-button {
+  align-self: flex-end;
+}
+
+.routes {
+  display: flex;
+  flex-direction: column;
+  gap: $gap-components;
+}
+
