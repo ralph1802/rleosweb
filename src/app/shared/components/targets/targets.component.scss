@@ -6,7 +6,7 @@
   gap: 16px;
   padding: 30px 100px;
   border: solid 1px $color-white;
-  border-radius: 70px;
+  border-radius: $border-radius;
   transition: transform 0.6s ease, background 0.3s ease;
 
   &:hover {
