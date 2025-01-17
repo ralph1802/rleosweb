@@ -1,23 +1,23 @@
 <div class="container">
   <span>{{ 'repositories.intro' | translate: translateService.GetLang }}</span>
-  <app-clickable-div
-    [url]="'https://github.com/ralph1802/SiteStock-dashboard'"
-    [imageSrc]="'images/sitestock.svg'"
-    [title]="'repositories.sitestock.title' | translate: translateService.GetLang"
-    [description]="'repositories.sitestock.description' | translate: translateService.GetLang">
-  </app-clickable-div>
-
-  <app-clickable-div
-    [url]="'https://github.com/ralph1802/angular-template'"
-    [imageSrc]="'images/ralphsites.svg'"
-    [title]="'repositories.angulartemplateweb.title' | translate: translateService.GetLang"
-    [description]="'repositories.angulartemplateweb.description' | translate: translateService.GetLang">
-  </app-clickable-div>
-
-  <app-clickable-div
-    [url]="'https://github.com/ralph1802/CardSite'"
-    [imageSrc]="'images/cardsite.svg'"
-    [title]="'repositories.cardsite.title' | translate: translateService.GetLang"
-    [description]="'repositories.cardsite.description' | translate: translateService.GetLang">
-  </app-clickable-div>
+  <div class="repositories">
+    <app-clickable-div
+      [url]="'https://github.com/ralph1802/SiteStock-dashboard'"
+      [imageSrc]="'images/sitestock.svg'"
+      [title]="'repositories.sitestock.title' | translate: translateService.GetLang"
+      [description]="'repositories.sitestock.description' | translate: translateService.GetLang">
+    </app-clickable-div>
+    <app-clickable-div
+      [url]="'https://github.com/ralph1802/angular-template'"
+      [imageSrc]="'images/ralphsites.svg'"
+      [title]="'repositories.angulartemplateweb.title' | translate: translateService.GetLang"
+      [description]="'repositories.angulartemplateweb.description' | translate: translateService.GetLang">
+    </app-clickable-div>
+    <app-clickable-div
+      [url]="'https://github.com/ralph1802/CardSite'"
+      [imageSrc]="'images/cardsite.svg'"
+      [title]="'repositories.cardsite.title' | translate: translateService.GetLang"
+      [description]="'repositories.cardsite.description' | translate: translateService.GetLang">
+    </app-clickable-div>
+  </div>
 </div>

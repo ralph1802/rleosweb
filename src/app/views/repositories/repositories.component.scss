@@ -2,9 +2,18 @@
 
 .container {
   display: flex;
+  flex-direction: column;
+  gap: $gap-components;
+  text-align: center;
+}
+
+.repositories {
+  display: flex;
   gap: $gap-components;
   flex-wrap: wrap;
   box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 450px) {
