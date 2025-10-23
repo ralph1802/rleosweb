@@ -1,12 +1,6 @@
 <div class="container">
   <span>{{ 'experience.intro' | translate: translateService.GetLang }}</span>
 
-  <app-primary-button
-    [type]="'primary'"
-    [label]="'about.buttons.primary' | translate: translateService.GetLang"
-    (action)="onDownloadCv()"
-  ></app-primary-button>
-
   <app-target-experience
     [titleSpanText]="'experience.frontEndJunior.vivipost.title' | translate: translateService.GetLang"
     [titleParagraphText]="'experience.frontEndJunior.vivipost.company' | translate: translateService.GetLang"
@@ -21,13 +15,19 @@
     [titleLabelText]="'experience.frontEndJunior.ralphSites.period' | translate: translateService.GetLang"
     [descriptionSpanText]="'experience.frontEndJunior.ralphSites.activities.title' | translate: translateService.GetLang"
     [descriptionParagraphText]="'experience.frontEndJunior.ralphSites.activities.text' | translate: translateService.GetLang"
-  ></app-target-experience>
+    ></app-target-experience>
 
-  <app-target-experience
+    <app-target-experience
     [titleSpanText]="'experience.frontEndJunior.wizardsCodes.title' | translate: translateService.GetLang"
     [titleParagraphText]="'experience.frontEndJunior.wizardsCodes.company' | translate: translateService.GetLang"
     [titleLabelText]="'experience.frontEndJunior.wizardsCodes.period' | translate: translateService.GetLang"
     [descriptionSpanText]="'experience.frontEndJunior.wizardsCodes.activities.title' | translate: translateService.GetLang"
     [descriptionParagraphText]="'experience.frontEndJunior.wizardsCodes.activities.text' | translate: translateService.GetLang"
-  ></app-target-experience>
+    ></app-target-experience>
+
+      <!-- <app-primary-button
+        [type]="'primary'"
+        [label]="'about.buttons.primary' | translate: translateService.GetLang"
+        (action)="onDownloadCv()"
+      ></app-primary-button> -->
 </div>
